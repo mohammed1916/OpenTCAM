@@ -132,6 +132,13 @@ run_black:
 
 format_pycode: run_isort run_black
 
+install_openlane:
+	@ echo " "
+	@ echo ------------------------- INSTALLING Open Lane ------------------------
+	@ bash ${DIR_SCRIPTS}/install_openlane.sh
+	@ echo ----------------------------------- DONE -----------------------------------
+	@ echo " "
+
 install_iverilog:
 	@ echo " "
 	@ echo ------------------------- INSTALLING Icarus Verilog ------------------------
