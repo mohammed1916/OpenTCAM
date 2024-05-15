@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontSize": 11,
+		"terminal.integrated.lineHeight": 1,
+		"terminal.integrated.shellIntegration.enabled": true,
+		"terminal.integrated.shellArgs.osx": ["-c", "source .pyVenvOpenTcam && exec $SHELL"],
+		"markdownShiki.theme": "min-light",
+		"json.maxItemsComputed": 100000,
+		"yaml.format.printWidth": 100,
+		"autoDocstring.docstringFormat": "one-line-sphinx",
+		"autoDocstring.startOnNewLine": true,
+		"autoDocstring.includeExtendedSummary": false,
+		"autoDocstring.includeName": false
+	}
+}

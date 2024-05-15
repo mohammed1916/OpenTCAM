@@ -27,3 +27,4 @@ docs
 
 # pylint config file
 !.pylintrc
+.DS_Store
